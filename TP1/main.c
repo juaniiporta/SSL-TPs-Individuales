@@ -1,5 +1,5 @@
 #include "scan.h"
 
-int main(int argc, char *argv[]) {
+int main(void) {
    get_token();
 }
