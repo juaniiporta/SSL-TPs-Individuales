@@ -9,10 +9,10 @@ int get_token(char vector[])
     else if (caracter == EOF) return FDT;
     else if (caracter == ',') return SEP;
     else {
-        while(caracter != EOF && caracter != ','){
+        while(caracter != EOF && caracter != ',') {
             if (!isspace(caracter)) {
-                    vector[i] = caracter;
-                    i++;
+                vector[i] = caracter;
+                i++;
             }
             caracter = getchar();
         }
